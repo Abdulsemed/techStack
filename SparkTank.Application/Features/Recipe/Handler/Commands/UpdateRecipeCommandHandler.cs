@@ -16,7 +16,7 @@ public class UpdateRecipeCommandHandler : IRequestHandler<UpdateRecipeCommand, B
     private readonly IRecipeRepository _recipeRepository;
     private readonly IUserRepository _userRepository;
     private readonly IMapper _mapper;
-    public UpdateRecipeCommandHandler(IRecipeRepository recipeRepository, IUserRepository userRepository. IMapper mapper)
+    public UpdateRecipeCommandHandler(IRecipeRepository recipeRepository, IUserRepository userRepository, IMapper mapper)
     {
         _recipeRepository = recipeRepository;
         _userRepository = userRepository;

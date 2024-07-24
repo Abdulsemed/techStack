@@ -55,6 +55,8 @@ namespace tech.Application.Features.Comment.Handler.Commands
                     Message = "comment updated"
                 };
             }
+
+            return response;
         }
     }
 }
