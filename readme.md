@@ -1,0 +1,1 @@
+a simple recipe-sharing platform. This platform should allow users to share, browse, and manage recipes. The primary functionalities include user registration, authentication, and the ability to create, update, delete, and view recipes.
