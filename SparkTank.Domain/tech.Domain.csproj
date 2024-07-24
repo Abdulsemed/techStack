@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\Ay\Desktop\spark tank\Spark_Tank\SparkTank.Domain\Entities\.editorconfig" />
+  </ItemGroup>
+
+	
+
+</Project>
