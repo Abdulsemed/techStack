@@ -61,14 +61,14 @@ namespace SparkTank.API.Controllers
         //    var response = await _mediator.Send(command);
         //    return StatusCode(response.StatusCode, response);
         //}
-        [Authorize]
-        [HttpPost("changePassword")]
-        public async Task<ActionResult<BaseResponseClass>> ChangePassword(ChangePasswordDto passwordDto)
-        {
-            var userId = new Guid(_contextAccessor.HttpContext!.User.FindFirstValue("userid"));
-            var request = new ChangePasswordRequest {ChangePassword = passwordDto, UserId = userId};
-            var response = await _mediator.Send(request);
-            return StatusCode(response.StatusCode, response);
-        }
+        //[Authorize]
+        //[HttpPost("changePassword")]
+        //public async Task<ActionResult<BaseResponseClass>> ChangePassword(ChangePasswordDto passwordDto)
+        //{
+        //    var userId = new Guid(_contextAccessor.HttpContext!.User.FindFirstValue("userid"));
+        //    var request = new ChangePasswordRequest {ChangePassword = passwordDto, UserId = userId};
+        //    var response = await _mediator.Send(request);
+        //    return StatusCode(response.StatusCode, response);
+        //}
     }
 }
